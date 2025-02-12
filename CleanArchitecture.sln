@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EC7F5BDF-4C7C-4F45-AD88-C8D34840C649}"
 EndProject
@@ -22,6 +22,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Application", "CleanArchitecture.Application\CleanArchitecture.Application.csproj", "{3DBF3CF2-04E2-4C13-A384-D45A82E1FEFE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.WebApi", "CleanArchitecture.WebApi\CleanArchitecture.WebApi.csproj", "{823C0838-0B4A-4707-94C3-57E783A5AA66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.UnitTest", "CleanArchitecture.UnitTest\CleanArchitecture.UnitTest.csproj", "{FB524974-BDD5-4260-B91F-699888265A33}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +55,10 @@ Global
 		{823C0838-0B4A-4707-94C3-57E783A5AA66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{823C0838-0B4A-4707-94C3-57E783A5AA66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{823C0838-0B4A-4707-94C3-57E783A5AA66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB524974-BDD5-4260-B91F-699888265A33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB524974-BDD5-4260-B91F-699888265A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB524974-BDD5-4260-B91F-699888265A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB524974-BDD5-4260-B91F-699888265A33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -66,5 +72,6 @@ Global
 		{328A3D3E-A891-48A2-868B-73604C46482A} = {03928433-929F-46A4-A207-3C24563B1A8E}
 		{3DBF3CF2-04E2-4C13-A384-D45A82E1FEFE} = {03928433-929F-46A4-A207-3C24563B1A8E}
 		{823C0838-0B4A-4707-94C3-57E783A5AA66} = {EC7F5BDF-4C7C-4F45-AD88-C8D34840C649}
+		{FB524974-BDD5-4260-B91F-699888265A33} = {881666D2-1169-4990-A28B-A3DF72E02396}
 	EndGlobalSection
 EndGlobal
