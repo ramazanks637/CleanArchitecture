@@ -21,7 +21,7 @@ namespace CleanArchitecture.Application.Feature.CarFeatures.Commands.CreateCar
         public async Task<MessageResponse> Handle(CreateCarCommand request, CancellationToken cancellationToken)
         {
             await _carService.CreateAsync(request, cancellationToken);
-            return new("Araba başarıyla üretildi.");
+            return new("Araba başarıyla kaydedildi.");
         }
     }
 }
