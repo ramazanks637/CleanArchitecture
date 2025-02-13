@@ -6,6 +6,5 @@ namespace CleanArchitecture.Application.Feature.CarFeatures.Commands.CreateCar
     public sealed record CreateCarCommand(
         string Name,
         string Model,
-        int EnginePower
-    ) : IRequest<MessageResponse>;
+        int EnginePower) : IRequest<MessageResponse>;
 }

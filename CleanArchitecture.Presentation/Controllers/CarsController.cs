@@ -17,6 +17,13 @@ namespace CleanArchitecture.Presentation.Controllers
             return Ok(response);
         }
 
-
+        [HttpGet]
+        public IActionResult Calculate()
+        {
+            int x = 0;
+            int y = 0;
+            int result = x / y;
+            return Ok();
+        }
     }
 }

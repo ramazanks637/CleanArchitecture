@@ -1,6 +1,6 @@
 namespace CleanArchitecture.UnitTest
 {
-    public class UnitTest1
+    public class CarsControllersUnitTest
     {
         [Fact]
         public void Test1()
